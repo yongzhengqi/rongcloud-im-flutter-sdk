@@ -265,7 +265,6 @@
         NSDictionary *msgDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
         NSString *localPath = [msgDic valueForKey:@"localPath"];
         long duration = [[msgDic valueForKey:@"duration"] longValue];
-        content = [RCHQVoiceMessage messageWithPath:localPath duration:duration];
     } else {
         NSLog(@"%s 非法的媒体消息类型",__func__);
         return;
