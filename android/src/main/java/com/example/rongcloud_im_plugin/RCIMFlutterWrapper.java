@@ -806,7 +806,7 @@ public class RCIMFlutterWrapper {
             Integer st = (Integer)map.get("rececivedStatus");
             Message.ReceivedStatus receivedStatus = new Message.ReceivedStatus(st.intValue());
             String senderUserId = (String)map.get("senderUserId");
-            Integer sendTime = (Integer)map.get("sendTime");
+            Long sendTime = (Long)map.get("sendTime");
 
             String contentStr = (String)map.get("content");
 
