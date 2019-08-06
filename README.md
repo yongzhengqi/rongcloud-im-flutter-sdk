@@ -1,3 +1,5 @@
+# 修复了insertMessage时出现的 java long cannot be converted to integer 问题
+
 # 融云 IM flutter plugin
 
 本文档讲解了如何使用 IM 的 Flutter Plugin，基于融云 iOS/Android 平台的 IMLib SDK
